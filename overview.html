@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <title>DNA Sequencer Overview</title>
+  </head>
+  <body>
+    <h2>DNA Sequencer Project Overview</h2>
+    <p>
+    A key element in many bioinformatics problems is the biological sequence. 
+    A biological sequence is just a list of characters chosen from some alphabet. 
+    Two of the common biological sequences are DNA (composed of the four characters A, C, G, and T) 
+    and RNA (composed of the four characters A, C, G, and U). 
+    
+    The Sequencer project, implements some basic functionality for manipulating 
+    DNA and RNA sequence fragments.
+    </p>
+
+    <h2>Implementation</h2>
+    <p> 
+    You will implement sequence fragments using linked lists, storing one letter of the 
+    sequence per linked list node. 
+    The list classes used in this project manage sequences using a singly linked list.
+    </p>
+    <p> 
+    In addition to the linked lists of sequences, the project maintains a "fragment list" 
+    which stores the various sequences. 
+    Commands that manipulate sequences will refer directly to entries in the fragment list. 
+    The fragment list stores the linked list that stores the sequence itself and the 
+    sequence which stores the sequence characters also stores the sequence type (RNA or DNA).
+    The sequence type field uses an enumerated type, and one enumeration
+    value is used to recognize that a particular sequence is empty.
+    </p>
+
+    <p> All indexing (both for the fragment list and for positions in a sequence) begin with position one.
+    </p>
+    <p> 
+    The primary design consideration for this project will be the interface between 
+    the list class and its client. 
+    It is mandatory that the list class remains application independent. 
+    No bioinformatics-related code should be part of the list class.
+    </p>
+    <h2>Running the program</h2>
+    <p>The program is invoked from the command-line as:
+    <pre>
+     java cisc187.dna.{@link cisc187.dna.Sequencer} [size] [file] </pre>
+    <dl> Where:
+      <dt> <tt>sequencer</tt></dt>
+      <dd>is the program name</dd>
+      <dt> <tt>size</tt></dt>
+      <dd>is the size of the fragment list</dd>
+      <dt> <tt>file</tt></dt>
+      <dd>is the name of a file containing program commands.  </dd>
+    </dl>
+    Class {@link cisc187.dna.FragmentList} has details on the commands available.
+    </p>
+    <p>The anr run target runs the equvalent of:
+    <pre>
+     java cisc187.dna.Sequencer 8 commands.txt </pre>
+  </body>
+</html>
+

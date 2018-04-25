@@ -1,0 +1,22 @@
+Testsuite: cisc187.dna.TestBaseSequence
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec
+
+Testcase: initDNAType took 0.01 sec
+Testcase: clipStartLessThanZero took 0.001 sec
+Testcase: initDefault took 0 sec
+Testcase: copyDNAisDifferentObject took 0.001 sec
+Testcase: initInvalidDNA took 0.001 sec
+Testcase: initInvalidRNA took 0.001 sec
+Testcase: initEmptyRNASeq took 0.001 sec
+Testcase: transcribeDNA took 0.001 sec
+Testcase: transcribeRNA took 0.001 sec
+Testcase: initDNASeq took 0 sec
+Testcase: clipStartMoreThanLength took 0.001 sec
+Testcase: transcribeEmptySequence took 0.001 sec
+Testcase: clip4 took 0.001 sec
+Testcase: initRNASeq took 0.001 sec
+Testcase: clearDNA took 0 sec
+Testcase: clipAll took 0.003 sec
+Testcase: copyDNA took 0.001 sec
+Testcase: clipEndMoreThanLength took 0.001 sec
+Testcase: initRNAType took 0.001 sec

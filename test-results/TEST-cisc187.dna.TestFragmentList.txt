@@ -1,0 +1,34 @@
+Testsuite: cisc187.dna.TestFragmentList
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec
+
+Testcase: initDefaultSize took 0.011 sec
+Testcase: clipACGTStart took 0.001 sec
+Testcase: clipBeyondLast took 0.001 sec
+Testcase: swapAt4 took 0.002 sec
+Testcase: transcribeSeqRNAError took 0.001 sec
+Testcase: testPrintEmptyItem took 0.001 sec
+Testcase: testPrintEmptyItemLast took 0.001 sec
+Testcase: testPrintEmpty took 0.001 sec
+Testcase: testToStringEmpty took 0.001 sec
+Testcase: testRemoveDnaAt5 took 0.001 sec
+Testcase: testRemoveSeqAt0 took 0.001 sec
+Testcase: testRemoveSeqAt2 took 0.001 sec
+Testcase: testRemoveSeqAt4 took 0.001 sec
+Testcase: testPrintEmptyItemBeyondLast took 0.001 sec
+Testcase: clip4Items took 0.001 sec
+Testcase: transcribeSeqAt4 took 0.003 sec
+Testcase: testInsertEmptyItem took 0.001 sec
+Testcase: testOverwriteAt0 took 0.001 sec
+Testcase: clipAll took 0.001 sec
+Testcase: copyFrom0To1 took 0.001 sec
+Testcase: clipAllNoEnd took 0.001 sec
+Testcase: transcribeSeqAAAA took 0.001 sec
+Testcase: transcribeSeqTTTT took 0.001 sec
+Testcase: testInsertDnaAt5 took 0.001 sec
+Testcase: initNonDefaultSize took 0.001 sec
+Testcase: clipLastThree took 0.001 sec
+Testcase: testInsertInvalidDNA took 0.001 sec
+Testcase: testInsertInvalidRNA took 0.001 sec
+Testcase: testInsertSeqAt2 took 0.001 sec
+Testcase: testInsertSeqAt4 took 0.001 sec
+Testcase: testPrintEmptyItemBeforeFirst took 0.001 sec
